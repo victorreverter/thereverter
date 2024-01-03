@@ -31,13 +31,19 @@
   margin: 0 auto;
 }
 
+#footerBox {
+  width: 100%;
+  background: #010b1a;
+}
+
 #footerContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  max-width: 320px;
   padding: 3em 1em;
-  background: #010b1a;
+  margin: 0 auto;
   color: #fff;
 }
 #footerContainer .divider_elem {
@@ -103,49 +109,4 @@
   font-size: 0.9em;
   text-align: center;
   color: #979797;
-}
-
-@media (min-width: 768px) {
-  #footerContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 2em 0 3em 1em;
-  }
-  #footerContainer .divider_elem {
-    width: 33%;
-    min-height: 140px;
-    border-bottom: initial;
-    border-left: 2px solid #353535;
-  }
-  #footerContainer .divider_elem:first-child, #footerContainer .divider_elem:last-child {
-    border-bottom: initial;
-    border-left: initial;
-  }
-  #footerContainer #socialContainer {
-    width: 37%;
-  }
-  #footerContainer #socialContainer #socialLinks {
-    width: 100%;
-    justify-content: flex-start;
-    margin: initial;
-  }
-  #footerContainer #socialContainer #socialLinks a {
-    margin-right: 1.5em;
-  }
-  #footerContainer #socialContainer, #footerContainer #interestingContainer {
-    width: 30%;
-    padding: 0 1em;
-  }
-  #footerContainer #socialContainer h3, #footerContainer #socialContainer #socialLinks > a, #footerContainer #socialContainer #interestingLinks > a, #footerContainer #interestingContainer h3, #footerContainer #interestingContainer #socialLinks > a, #footerContainer #interestingContainer #interestingLinks > a {
-    text-align: left;
-  }
-  #footerContainer h3 {
-    padding: 0 0 0.5em;
-  }
-  #footerContainer #copyrightBlog {
-    padding: 2em 0 0;
-  }
 }/*# sourceMappingURL=MainStyles.css.map */

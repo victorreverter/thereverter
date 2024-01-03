@@ -12,26 +12,28 @@ function Footer() {
   const navigate=useNavigate()
   
   return (
-    <div id='footerContainer'>
-      <div id="logoContainer" className='divider_elem'>
-        <img id='logoFooter' src={logoFooter} alt="logo_footer" onClick={()=>navigate('/thereverter/')}/>
-      </div>
-      <div id="socialContainer" className='divider_elem'>
-        <h3>Get in touch</h3>
-        <div id="socialLinks" className='cursor-pointer'>
-          <a href="https://www.instagram.com/victorreverter/" target='blank'><img src={ig_icon} alt="instagram_icon" /></a>
-          <a href="https://www.linkedin.com/in/victorreverter/" target='blank'><img src={lkd_icon} alt="linkedin_icon" /></a>
-          <a href="https://twitter.com/victor_reverter" target='blank'><img src={x_icon} alt="x_icon" /></a>
+    <div id='footerBox'>
+      <div id='footerContainer'>
+        <div id="logoContainer" className='divider_elem'>
+          <img id='logoFooter' src={logoFooter} alt="logo_footer" onClick={()=>navigate('/thereverter/')}/>
         </div>
-      </div>
-      <div id="interestingContainer" className='divider_elem'>
-        <h3>Useful Links</h3>
-        <div id="interestingLinks" className='cursor-pointer'>
-          <a href="https://victorreverter.com/" target='blank'>Victor Reverter</a>
+        <div id="socialContainer" className='divider_elem'>
+          <h3>Get in touch</h3>
+          <div id="socialLinks" className='cursor-pointer'>
+            <a href="https://www.instagram.com/victorreverter/" target='blank'><img src={ig_icon} alt="instagram_icon" /></a>
+            <a href="https://www.linkedin.com/in/victorreverter/" target='blank'><img src={lkd_icon} alt="linkedin_icon" /></a>
+            <a href="https://twitter.com/victor_reverter" target='blank'><img src={x_icon} alt="x_icon" /></a>
+          </div>
         </div>
-      </div>
-      <div id='copyrightBlog' className='divider_elem'>
-        <p>Copyright © 2024 by Victor Reverter</p>
+        <div id="interestingContainer" className='divider_elem'>
+          <h3>Useful Links</h3>
+          <div id="interestingLinks" className='cursor-pointer'>
+            <a href="https://victorreverter.com/" target='blank'>Victor Reverter</a>
+          </div>
+        </div>
+        <div id='copyrightBlog' className='divider_elem'>
+          <p>Copyright © 2024 by Victor Reverter</p>
+        </div>
       </div>
     </div>
   )

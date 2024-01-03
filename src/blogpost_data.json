@@ -1,0 +1,107 @@
+{
+  "blogposts": [
+    {
+      "id": 5,
+      "author": "Victor Reverter",
+      "date": "Jan 3rd 2024",
+      "cover": "/thereverter/assets/posts_covers/3_market_havanna.jpg",
+      "attributes": {
+        "title": "Title 5",
+        "tags": "Humanity",
+        "description": "Description of the blog post to be aware of what it had been written on it..."
+      },
+      "article": [
+        {
+          "type": "paragraph",
+          "text": "Despite the whole season that we have had. Ohtani new signature reveal the new horizon in baseball contracts."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "author": "Victor Reverter",
+      "date": "Dec 28th 2023",
+      "cover": "/thereverter/assets/posts_covers/3_market_havanna.jpg",
+      "attributes": {
+        "title": "Title 4",
+        "tags": "Design",
+        "description": "Description of the blog post to be aware of what it had been written on it..."
+      },
+      "article": [
+        {
+          "type": "paragraph",
+          "text": "Despite the whole season that we have had. Ohtani new signature reveal the new horizon in baseball contracts."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "author": "Victor Reverter",
+      "date": "Dec 28th 2023",
+      "cover": "/assets/posts_covers/2_market_eastern_europe.jpg",
+      "attributes": {
+        "title": "Title 3",
+        "tags": "Tech",
+        "description": "Description of the blog post to be aware of what it had been written on it..."
+      },
+      "article": [
+        {
+          "type": "paragraph",
+          "text": "Despite the whole season that we have had. Ohtani new signature reveal the new horizon in baseball contracts."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "author": "Victor Reverter",
+      "date": "Dec 28th 2023",
+      "cover": "/assets/posts_covers/1_baseball_on_fire.jpg",
+      "attributes": {
+        "title": "Title 2",
+        "tags": "Tech",
+        "description": "Description of the blog post to be aware of what it had been written on it..."
+      },
+      "article": [
+        {
+          "type": "paragraph",
+          "text": "Despite the whole season that we have had. Ohtani new signature reveal the new horizon in baseball contracts."
+        },
+        {
+          "type": "image",
+          "src": "/assets/posts_images/1_baseball_on_fire/cubs_logo.jpg",
+          "alt": "cubs_logo"
+        },
+        {
+          "type": "paragraph",
+          "text": "New contracts has raise their level because of the 700 hundred millions in ten years for the japanese player. Even when for Dodgers it's a suitable deal and no matter the world series eventual success, they are on the road to become in the Yankees of 21st century because of this deal."
+        },
+        {
+          "type": "image",
+          "src": "/assets/posts_images/1_baseball_on_fire/dodgers-player.jpg",
+          "alt": "dodgers_player"
+        },
+        {
+          "type": "paragraph",
+          "text": "Diayanis is listening how I made this <a href=\"https://www.marca.com\">marca</a>. Bigger and more effective"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "author": "Victor Reverter",
+      "date": "Dec 29th 2023",
+      "cover": "/assets/posts_covers/0_intropost_cover.jpg",
+      "attributes": {
+        "title": "The Reverter simple as it sounds",
+        "tags": "Humanity",
+        "description": "This is the blogpost description, a short text where you explain the main meaning of the post and how we can made possible the blog and their articles..."
+      },
+      "article": [
+        {
+          "type": "paragraph",
+          "text": "Despite the whole season that we have had. Ohtani new signature reveal the new horizon in baseball contracts."
+        }
+      ]
+    }
+  ]
+}

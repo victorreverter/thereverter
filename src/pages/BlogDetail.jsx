@@ -44,7 +44,12 @@ function BlogDetail() {
         );
       }
     } else if (item.type === 'image') {
-      return <img key={item.src} src={item.src} alt={item.alt} className='rounded-lg object-contain w-full h-[250px] md:h-[380px] lg:h-[450px]' />;
+      return (
+        <div className='contain-post-img flex flex-col'>
+          <img key={item.src} src={item.src} alt={item.alt} className='rounded-lg object-contain w-full h-[250px] md:h-[380px] lg:h-[450px]' />
+          <h5>{item.alt}</h5>
+        </div>
+      )
     } else {
       throw new Error('Unknown type: ' + item.type);
     }

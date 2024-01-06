@@ -30,7 +30,7 @@ function BlogDetail() {
         return (
           <p key={item.text} className='line-clamp-6 mt-5 mb-3'>
             {textParts[0]}
-            <Link to={linkUrl} className="inline-block cursor pointer">
+            <Link to={linkUrl} target="_blank" className="inline-block cursor pointer">
               {linkText}
             </Link>
             {textParts[1]}

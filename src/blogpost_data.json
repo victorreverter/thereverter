@@ -4,7 +4,7 @@
       "id": 5,
       "author": "Victor Reverter",
       "date": "Jan 3rd 2024",
-      "cover": "/thereverter/assets/posts_covers/3_market_havanna.jpg",
+      "cover": "assets/posts_covers/3_market_havanna.jpg",
       "attributes": {
         "title": "Title 5",
         "tags": "Humanity",
@@ -21,7 +21,7 @@
       "id": 4,
       "author": "Victor Reverter",
       "date": "Dec 28th 2023",
-      "cover": "/thereverter/assets/posts_covers/3_market_havanna.jpg",
+      "cover": "assets/posts_covers/3_market_havanna.jpg",
       "attributes": {
         "title": "Title 4",
         "tags": "Design",
@@ -38,7 +38,7 @@
       "id": 3,
       "author": "Victor Reverter",
       "date": "Dec 28th 2023",
-      "cover": "/thereverter/assets/posts_covers/2_market_eastern_europe.jpg",
+      "cover": "assets/posts_covers/2_market_eastern_europe.jpg",
       "attributes": {
         "title": "Title 3",
         "tags": "Tech",
@@ -55,7 +55,7 @@
       "id": 2,
       "author": "Victor Reverter",
       "date": "Dec 28th 2023",
-      "cover": "/thereverter/assets/posts_covers/1_baseball_on_fire.jpg",
+      "cover": "assets/posts_covers/1_baseball_on_fire.jpg",
       "attributes": {
         "title": "Title 2",
         "tags": "Tech",
@@ -68,7 +68,7 @@
         },
         {
           "type": "image",
-          "src": "/thereverter/assets/posts_images/1_baseball_on_fire/cubs_logo.jpg",
+          "src": "assets/posts_images/1_baseball_on_fire/cubs_logo.jpg",
           "alt": "Cubs Iridiscent Logo"
         },
         {
@@ -77,7 +77,7 @@
         },
         {
           "type": "image",
-          "src": "/thereverter/assets/posts_images/1_baseball_on_fire/dodgers-player.jpg",
+          "src": "assets/posts_images/1_baseball_on_fire/dodgers-player.jpg",
           "alt": "Dodger Baseball Player"
         },
         {
@@ -90,7 +90,7 @@
       "id": 1,
       "author": "Victor Reverter",
       "date": "Dec 29th 2023",
-      "cover": "/thereverter/assets/posts_covers/0_intropost_cover.jpg",
+      "cover": "assets/posts_covers/0_intropost_cover.jpg",
       "attributes": {
         "title": "The Reverter simple as it sounds",
         "tags": "Humanity",

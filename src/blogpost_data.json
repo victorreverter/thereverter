@@ -6,7 +6,7 @@
       "date": "Jan 3rd 2024",
       "cover": "/assets/posts_covers/3_market_havanna.jpg",
       "attributes": {
-        "title": "Title 5",
+        "title": "Title 5 modified",
         "tags": "Humanity",
         "description": "Description of the blog post to be aware of what it had been written on it..."
       },
@@ -89,17 +89,41 @@
     {
       "id": 1,
       "author": "Victor Reverter",
-      "date": "Dec 29th 2023",
+      "date": "Jan 9th 2024",
       "cover": "/assets/posts_covers/0_intropost_cover.jpg",
       "attributes": {
         "title": "The Reverter simple as it sounds",
         "tags": "Humanity",
-        "description": "This is the blogpost description, a short text where you explain the main meaning of the post and how we can made possible the blog and their articles..."
+        "description": "This is the introduction to my personal blog, my own and personal view of things that had happened, are happening and will happen."
       },
       "article": [
         {
           "type": "paragraph",
-          "text": "Despite the whole season that we have had. Ohtani new signature reveal the new horizon in baseball contracts."
+          "text": "Greetings, fellow explorers of the world! I am Victor Reverter, the mind behind \"The Reverter\". As a designer, coder, and advocate for humanity, this blog is more than just a digital diary. It is a creative canvas where I aim to explore, discuss, and perhaps, even redefine the boundaries of design, technology, and humanity."
+        },
+        {
+          "type": "paragraph",
+          "text": "The name  \"The Reverter\" is not just a play on my last name; it embodies the core philosophy that fuels this venture. It is about reversing, flipping, and challenging concepts – a wordplay mirroring my approach to life and my diverse interests. In this inaugural post, let me unravel the mojo behind creating this space that encapsulates the simplicity of my name but promises to deal with complexity of ideas but with a simpler approach."
+        },
+        {
+          "type": "paragraph",
+          "text": "Design, my first love and lifelong companion, will be a cornerstone of this blog. Because I have witnessed the transformative power of visuals. Here, I will share my experiences, dive into design trends, and explore how design impacts our daily lives. It is not just about aesthetics, it is about crafting a narrative through images and shapes, with each design carrying a story of its own."
+        },
+        {
+          "type": "paragraph",
+          "text": "But the journey does not end with design. The technology, with its endless possibilities, attracts us. As a code advocate, coding is my second love, and I am here to talk about it to my audience especially when this is merged with the design and how technology shapes our world."
+        },
+        {
+          "type": "paragraph",
+          "text": "Also I recognize the need to focus into humanity. In an age dominated by AI, there's a pressing need to bring core human values to the forefront.  \"The Reverter\" will be a space for conversations about empathy, ethics, and compassion in our tech-driven world. Let us not lose sight of what makes us truly human."
+        },
+        {
+          "type": "paragraph",
+          "text": "This blog is not just a reflection of my professional endeavors but a personal quest to make sense of the world around us. Through the trifecta of design, technology, and humanity, I aim to contribute at least just a bit to a narrative that prepares us for the future."
+        },
+        {
+          "type": "paragraph",
+          "text": "So, join me in a journey into the intersection of design, technology, and humanity at  \"The Reverter\". Be part of this where we unravel the complexities, celebrate the simplicities, and navigate the ever-evolving landscape of our digital world. Together, let us explore, create, and revert the norms."
         }
       ]
     }

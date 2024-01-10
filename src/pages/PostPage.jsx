@@ -30,19 +30,34 @@
 // export default PostPage;
 
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom'
 
 const PostPage = ({ params }) => {
 //   const { id } = params;
-  const { id } = useParams();
+  const { id } = useParams()
+  console.log('Current ID:', id)
 
   // Importar dinámicamente el archivo basado en el id
-  const postContent = require(`../posts/${id}.jsx`).default;
+  // const postContent = require(`../posts/${id}.jsx`).default
+  const postContentModule = require(`../posts/${id}.jsx`);
+  const PostItem = postContentModule.default;
+  
+  const postContent = (() => {
+    try {
+      return require(`../posts/${id}.jsx`).default;
+
+    } catch (error) {
+      console.error('Error loading post content:', error);
+      return <div>Error loading post content</div>;
+    }
+  })();
+  
+  console.log('Post Content:', postContent)
 
   return (
     <div>
       <h3>{id}, this is the id</h3>
-      <div>{postContent}</div>
+      <div><PostItem /></div>
     </div>
   );
 };

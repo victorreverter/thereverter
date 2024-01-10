@@ -1,9 +1,11 @@
 import React from 'react'
 
-const PostPage = () => {
+const PostItem = () => {
   return (
-    <div>PostPage</div>
+    <div>
+      <h3>This is the PostItem 0</h3>
+    </div>
   )
 }
 
-export default PostPage
+export default PostItem

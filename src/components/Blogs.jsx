@@ -19,7 +19,7 @@ function Blogs(PostData) {
     <div id="blogs_container" className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
     mt-10 px-8 md:px-6 lg:px-0 gap-8'>
       {PostsData.slice(1).map((item)=>(
-        <div key={item.id} className='mt-8 mb-4 cursor-pointer' onClick={()=>navigate('blog-detail/'+item.id)}>
+        <div key={item.id} className='mt-8 mb-4 cursor-pointer' onClick={()=>navigate('../posts/'+item.url_name)}>
           <img src={item.cover} className='w-full rounded-lg
           object-cover h-[200px]'/>
           <h3 className='text-red-500 mt-3'>{item.attributes.tags}</h3>
@@ -33,6 +33,20 @@ function Blogs(PostData) {
             </div>
           </div>
         </div>
+        // <div key={item.id} className='mt-8 mb-4 cursor-pointer' onClick={()=>navigate('blog-detail/'+item.id)}>
+        //   <img src={item.cover} className='w-full rounded-lg
+        //   object-cover h-[200px]'/>
+        //   <h3 className='text-red-500 mt-3'>{item.attributes.tags}</h3>
+        //   <h3 className='font-bold mt-3'>{item.attributes.title}</h3>
+        //   <h3 className='line-clamp-3 text-gray-400 mt-3'>{item.attributes.description}</h3>
+        //   <div className='flex items-center mt-5'>
+        //     <img src={profilePic} className='w-[35px] rounded-full' />
+        //     <div className='ml-2'>
+        //       <h3 className='font-bold text-[12px]'>{item.author}</h3>
+        //       <h3 className='text-gray-500 text-[10px]'>{item.date}</h3>
+        //     </div>
+        //   </div>
+        // </div>
       ))}
     </div>
     

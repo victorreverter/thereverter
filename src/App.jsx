@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import BlogDetail from './pages/BlogDetail'
+import PostPage from './pages/PostPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,8 @@ function App() {
           {/* <Route path="/thereverter/" element={<Home/>}></Route>
           <Route path="/thereverter/blog-detail/:id" element={<BlogDetail/>}></Route> */}
           <Route path="/" element={<Home/>}></Route>
-          <Route path="/blog-detail/:id" element={<BlogDetail/>}></Route>
+          {/* <Route path="/blog-detail/:id" element={<BlogDetail/>}></Route> */}
+          <Route path="/posts/:id" element={<PostPage/>}></Route>
         </Routes>
 
         {/* Footer */}

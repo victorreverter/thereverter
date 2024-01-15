@@ -28,7 +28,7 @@ function Search() {
   return (
     <div className='flex justify-center flex-col'>
       <img id="banner_home" src={banner} className='rounded-lg object-cover' />
-      <h3 id='section_title' className='flex justify-center'>Blog Posts</h3>
+      {/* <h3 id='section_title' className='flex justify-center'>Blog Posts</h3> */}
       {/* <div className='bg-white shadow-lg p-4 rounded-lg mt-[-20px] mx-[25%] flex items-center text-gray-400'>
         <IoSearchOutline className='text-[20px]'/>
         <input type="text" placeholder='Search' className='outline-none bg-white ml-2' />

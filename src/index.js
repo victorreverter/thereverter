@@ -4,6 +4,7 @@ import './index.css';
 import App from './App.jsx'
 // import { BrowserRouter } from 'react-router-dom'
 import { HashRouter} from 'react-router-dom';
+// import { MemoryRouter } from 'react-router-dom';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -16,6 +17,12 @@ root.render(
     <App />
   </HashRouter>
 );
+
+// root.render(
+//   <MemoryRouter> {/* Use MemoryRouter instead of HashRouter */}
+//     <App />
+//   </MemoryRouter>
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

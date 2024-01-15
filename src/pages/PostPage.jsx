@@ -35,7 +35,7 @@ import { useParams } from 'react-router-dom'
 const PostPage = ({ params }) => {
 //   const { id } = params;
   const { id } = useParams()
-  // console.log('Current ID:', id)
+  console.log('Current ID:', id)
 
   // Importar dinámicamente el archivo basado en el id
   // const postContent = require(`../posts/${id}.jsx`).default

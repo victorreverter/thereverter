@@ -1,3 +1,5 @@
+$footer-text-color: #b1b1b1;
+
 *{
     // background: #ffffe6;
 }
@@ -29,7 +31,7 @@
 
 #intro_post_container {
     max-width: 930px;
-    margin: 0 auto;
+    margin: 2rem auto 0;
 }
 
 #blogs_container {
@@ -62,29 +64,32 @@
     align-items: center;
 
     width: 100%;
-    max-width: 320px;
+    // max-width: 320px;
     padding: 3em 1em;
 
     margin: 0 auto;
 
     // background: #010b1a;
     color: #fff;
-
-    .divider_elem{
-        width: 100%;
-
-        padding: 0 0 2em;
-        border-bottom: 2px solid #353535;
-
-        &:first-child, &:last-child {
-            padding: initial;
-            border-bottom: initial;
-        } 
-    }
     
     #logoFooter {
         width: 280px;
         margin: 0 auto;
+    }
+
+    #explainContainer {
+        padding: 2rem 0 0rem;
+
+        p{
+            color: $footer-text-color;
+            text-align: center;
+
+            a{
+                color:#fff;
+                font-weight: 700;
+                text-decoration-color: #fff;
+            }
+        }
     }
 
     h3 {
@@ -98,19 +103,23 @@
         text-align: center;
     }
 
+    #socialContainer {
+        width: 100%;
+    }
+
     #socialLinks, #interestingLinks {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
 
         width: 100%;
-        max-width: 320px;
+        max-width: 250px;
         
         margin: 0 auto;
 
         a {
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
 
             &:hover {
                 transform: scale(1.2);
@@ -150,71 +159,63 @@
 
         font-size: 0.9em;
         text-align: center;
-        color: #979797;
+        color: $footer-text-color;
     }
 }
 
-// @media (min-width: 768px) {
-//     #footerContainer {
-//         display: flex;
-//         flex-direction: row;
-//         align-items: stretch;
-//         flex-wrap: wrap;
+@media (min-width: 768px) {
+    #footerContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 1024px;
 
-//         width: 100%;
-//         padding: 2em 0 3em 1em;
+        #logoContainer {
+            width: 100%;
+        }
 
-//         .divider_elem {
-//             width: 33%;
-//             min-height: 140px;
-            
-//             // padding: 0 1em 0 0;
-//             border-bottom: initial;
-//             border-left: 2px solid #353535;
-    
-//             &:first-child, &:last-child {
-//                 border-bottom: initial;
-//                 border-left: initial;
-//             }
-//         }
+        h3 {
+            text-align: left;
+            padding: 0;
+        }
+   
+        #logoFooter {
+            margin: initial;
+        }
 
-//         #logoContainer {
-//             // width: 45%;
-//         }
+        #explainContainer, #socialContainer, #interestingContainer {
+            width: 35%;
+            padding: 2rem 0 0rem;
+        }
 
-//         #socialContainer {
-//             width: 37%;
-            
-//             #socialLinks {
-//                 width: 100%;
-//                 justify-content: flex-start;
-//                 margin: initial;
+        #socialContainer, #interestingContainer {
+            width: 25%;
+        }
 
-//                 a {
-//                     margin-right: 1.5em;
-//                 }
-//             } 
-//         }
+        #explainContainer {
+            p {
+                text-align: left;
+            }
+        }
 
-//         #socialContainer ,#interestingContainer {
-//             width: 30%;
-//             padding: 0 1em;
+        #socialLinks {
+            justify-content: flex-start;
+            max-width: inherit;
 
-//             h3, #socialLinks>a, #interestingLinks>a {
-//                 text-align: left;
-//             }
-//         } 
+            a {
+                margin-right: 1rem;
+            }
+        }
 
-//         h3 {
-//             padding: 0 0 0.5em;
-//         } 
+        #interestingLinks a {
+            text-align: left;
+        }
 
-//         #copyrightBlog {
-//             padding: 2em 0 0;
-//         }
-//     }
-// }
-
-
-
-
+        #copyrightBlog {
+            margin-top: 2rem;
+            border-top: 1px solid #2b2b2b;
+            text-align: left;
+        }
+    }
+}

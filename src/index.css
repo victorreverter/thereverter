@@ -37,9 +37,11 @@ code {
 
 a {
   font-weight: 500;
-  color: #ff3254;
+  color: #000;
   /* text-decoration: inherit; */
   text-decoration: underline;
+  text-decoration-color: #ff3254;
+  transition: 0.3s;
 }
 
 a:hover {
